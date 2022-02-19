@@ -1,6 +1,7 @@
 # yFlowGen_jp
-C言語(C,C++)のソースファイルを入力することでフローチャート(gml ファイル形式)を自動生成します。
-
+C言語(C,C++)のソースファイルを入力することでフローチャート(gml ファイル形式)を自動生成します。  
+なお、GUIでの環境(yFlowGenGUI.xlsm)もyFLowGen.exeと一緒に同梱しています。
+ 
 [実行例]
 下記コマンドをwindowsのコマンドプロンプトで実行。
 
@@ -13,7 +14,7 @@ yFlowGen.exe -f sample.c
 
 　 
 # yFlowGenの使い方
-Windowsのコマンドプロンプトにて、yFlowGen.exeを実行することで、result_yFlowGenフォルダ以下にフローチャートのファイルを出力し、log_yFlowGen.txtに実行ログを出力します。実行の際は、下記の引数を指定してください。　なお、GUIでの環境(yFlowGenGUI.xlsm)も用意しています。
+Windowsのコマンドプロンプトにて、yFlowGen.exeを実行することで、result_yFlowGenフォルダ以下にフローチャートのファイルを出力し、log_yFlowGen.txtに実行ログを出力します。実行の際は、下記の引数を指定してください。
 ```
 yFlowGen.exe -f <filePath> -no_compact -no_comment -out1file -color -debug -out_group_comment
 もしくは
