@@ -12,7 +12,7 @@ yFlowGen.exe -f sample.c
 ![yFlowGenで生成したフローチャート例](http://toowaki.web.fc2.com/picture/yflow_img_for_github.png "")
 
 　 
-# yFlowGen.exeの使い方
+# yFlowGenの使い方
 Windowsのコマンドプロンプトにて、yFlowGen.exeを実行することで、result_yFlowGenフォルダ以下にフローチャートのファイルを出力し、log_yFlowGen.txtに実行ログを出力します。実行の際は、下記の引数を指定してください。　なお、GUIでの環境(yFlowGenGUI.xlsm)も用意しています。
 ```
 yFlowGen.exe -f <filePath> -no_compact -no_comment -out1file -color -debug -out_group_comment
@@ -31,12 +31,3 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -color -debug -out_g
 -no_reset     : スクリプト実行時に結果フォルダを削除しない(省略可能)
 -true_false   : if/else if文の真偽をTrue,Falseで記載する(未設定時はYes,Noで記載)
 ```
-
-## 実行例: 
-```
- yFlowGen.exe -f sample.c -out1file
-```
-
--f　の後にファイル名を指定して実行すると、yFlowGen.exeを実行した場所にresult_yFlowGen\ソースファイル名"のフォルダを作成し、関数ごとにフローチャートのファイルを出力します。
--dの後にフォルダ名を指定して実行すると、指定したフォルダ以下にあるC言語で書かれたソースファイル(.c, .cpp)を検索し、result_yFlowGenフォルダ以下に、検索したフォルダの階層構造と同じ階層構造のフォルダを作成し、そこへフローチャートのファイルを出力します。
-なお、コマンドプロンプトでの実行方法だけでなく、GUIで実行する方法も別途用意しています。
