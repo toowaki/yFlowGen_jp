@@ -14,7 +14,7 @@ yFlowGen.exe -f sample.c
 
 　 
 # yFlowGenの使い方
-Windowsのコマンドプロンプトにて、yFlowGen.exeを実行することで、result_yFlowGenフォルダ以下にフローチャートのファイルを出力し、log_yFlowGen.txtに実行ログを出力します。実行の際は、下記の引数を指定してください。
+Windowsのコマンドプロンプトにて、yFlowGen.exeを実行することで、result_yFlowGenフォルダ以下にフローチャートのファイルを出力し、log_yFlowGen.txtに実行ログを出力します。実行の際は、下記の引数を指定してください。GUIでの環境(yFlowGenGUI.xlsm)については、yFlowGenGUI.xlsmに記載した「使い方」シートを御覧ください。
 ```
 yFlowGen.exe -f <filePath> -no_compact -no_comment -out1file -color -debug -out_group_comment
 もしくは
