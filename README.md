@@ -5,8 +5,8 @@ yFlowGen.exeにC言語(C,C++)のソースファイルを入力することでフ
 -	DOTファイルの場合、Graphvizのインストールが必要です。[https://graphviz.org/download/]
  
 [実行例] GMLファイル生成の場合
-下記コマンドをwindowsのコマンドプロンプトで実行。
-例ではソースファイルとしてsample.cを指定。
+
+下記コマンドをwindowsのコマンドプロンプトで実行。例ではソースファイルとしてsample.cを指定。
 ```
 yFlowGen.exe -f sample.c
 ```
