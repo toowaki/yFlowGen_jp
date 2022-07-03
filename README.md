@@ -1,8 +1,8 @@
 # yFlowGen_jp
 yFlowGen.exeにC言語(C,C++)のソースファイルを入力することでフローチャートを自動生成します。
 ファイル形式は、「GMLファイル」、「DOTファイル+SVGファイル」を選択可能です。
--	GMLファイルの場合yEd Graph Editorというソフトのインストールが必要です。
--	DOTファイルの場合Graphvizというソフトのインストールが必要です。
+-	GMLファイルの場合、yEd Graph Editor(https://www.yworks.com/products/yed/download#download)のインストールが必要です。
+-	DOTファイルの場合、Graphviz(https://graphviz.org/download/)のインストールが必要です。
  
 [実行例] GMLファイル生成の場合
 下記コマンドをwindowsのコマンドプロンプトで実行。
