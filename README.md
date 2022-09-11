@@ -38,4 +38,5 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -color -debug -out_g
 -no_reset     : スクリプト実行時に結果フォルダを削除しない(省略可能)
 -true_false   : if/else if文の真偽をTrue,Falseで記載する(未設定時はYes,Noで記載)
 -no_connection_point : 接続点を追加しない(未設定時は接続点を追加)
+-ignoredef <defA,defB,etc>: 無効な#define名 (省略可能。未設定時は全ての#define名を有効として表示)
 ```
