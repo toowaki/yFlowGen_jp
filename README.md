@@ -19,14 +19,14 @@ yFlowGen.exe -f sample.c -format dot
 ![yFlowGenで生成したフローチャート例](http://toowaki.web.fc2.com/picture/yFLowGne_pic_code2dot.png "")
 　 
 # yFlowGenのオプション設定
-Windowsのコマンドプロンプトにて、yFlowGen.exeを実行することで、result_yFlowGenフォルダ以下にフローチャートのファイルを出力し、log_yFlowGen.txtに実行ログを出力します。実行の際は、下記の引数を指定してください。GUIでの環境(yFlowGenGUI.xlsm)については、yFlowGenGUI.xlsmに記載した「使い方」シートを御覧ください。
+Windowsのコマンドプロンプトにて、yFlowGen.exeを実行することで、result_yFlowGenフォルダ以下にフローチャートのファイルを出力し、なlog_yFlowGen.txtに実行ログを出力します。実行の際は、下記の引数を指定してください。GUIでの環境(yFlowGenGUI.xlsm)については、yFlowGenGUI.xlsmに記載した「使い方」シートを御覧ください。
 ```
 yFlowGen.exe -f <filePath> -no_compact -no_comment -out1file -color -debug -out_group_comment
 もしくは
 yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -color -debug -out_group_comment
 
 -f <filePath> : C言語で書かれたソースファイルのパス (-dを記載の場合は省略可能)
--d <dirPath>  : C言語で書かれたソースファイルを含んだフィルダのパス (-fを記載の場合は省略可能)
+-d <dirPath>  : C言語で書かれたソースファイルを含んだフォルダのパス (-fを記載の場合は省略可能)
 -format <format> : 「-format dot」と入力するとDOTとSVGファイルを生成します。(省略時はGMLを生成)
 -out1file     : 1ソースファイルにつき1GMLファイルを出力する (省略可能) 
 -no_compact   : 処理ブロックのサイズをできるだけ小さくする設定をOFF (省略可能)
