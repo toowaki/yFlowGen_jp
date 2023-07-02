@@ -38,6 +38,6 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -color -debug -out_g
 -no_reset     : スクリプト実行時に結果フォルダを削除しない(省略可能)
 -true_false   : if/else if文の真偽をTrue,Falseで記載する(未設定時はYes,Noで記載)
 -no_connection_point : 接続点を追加しない(未設定時は接続点を追加)
--define <defA,defB,etc>: 有効な define 名 省略可能 . 複数指定の場合はカンマ区切りで指定
+-define <defA,defB,etc>: 有効な define 名 (省略可能. 複数指定の場合はカンマ区切りで指定)
 -left_flow_is_no : IF分岐の左をNO 、右をYES に設定 (省略可能)
 ```
