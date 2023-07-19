@@ -40,4 +40,6 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -color -debug -out_g
 -no_connection_point : 接続点を追加しない(未設定時は接続点を追加)
 -define <defA,defB,etc>: 有効な#define名 (省略可能. 複数指定の場合はカンマ区切りで指定)
 -left_flow_is_no : IF分岐の左をNO 、右をYES に設定 (省略可能)
+-add_extension <cxx,cs,etc> : 追加の拡張子 (省略可能)
+-pj_name <your_project_name> : プロジェクト名 (省略可能)
 ```
