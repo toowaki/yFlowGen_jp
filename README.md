@@ -21,9 +21,9 @@ yFlowGen.exe -f sample.c -format dot
 # yFlowGenのオプション設定
 Windowsのコマンドプロンプトにて、yFlowGen.exeを実行することで、result_yFlowGenフォルダ以下にフローチャートのファイルを出力し、なlog_yFlowGen.txtに実行ログを出力します。実行の際は、下記の引数を指定してください。GUIでの環境(yFlowGenGUI.xlsm)については、yFlowGenGUI.xlsmに記載した「使い方」シートを御覧ください。
 ```
-yFlowGen.exe -f <filePath> -no_compact -no_comment -out1file -debug -out_group_comment
+yFlowGen.exe -f <filePath> -no_compact -no_comment -out1file -out_group_comment
 もしくは
-yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -debug -out_group_comment
+yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -out_group_comment
 
 -f <filePath> : C言語で書かれたソースファイルのパス (-dを記載の場合は省略可能)
 -d <dirPath>  : C言語で書かれたソースファイルを含んだフォルダのパス (-fを記載の場合は省略可能)
@@ -43,4 +43,5 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -debug -out_group_co
 -left_flow_is_no : IF分岐の左をNO、右をYESに設定 (省略可能)
 -add_extension <cxx,cs,etc> : 追加の拡張子 (省略可能)
 -pj_name <your_project_name> : プロジェクト名 (省略可能)
+-copy_org_code : 入力ファイルのソースコードをresultフォルダにコピーする (省略可能)
 ```
