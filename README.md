@@ -45,3 +45,8 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -out_group_comment
 -pj_name <your_project_name> : プロジェクト名 (省略可能)
 -copy_org_code : 入力ファイルのソースコードをresultフォルダにコピーする (省略可能)
 ```
+
+## 対応OS  
+- Windows 11
+- Windows 10 32/64 bit
+- Windows 7 32/64 bit
