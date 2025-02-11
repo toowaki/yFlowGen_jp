@@ -27,6 +27,7 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -out_group_comment
 
 -f <filePath> : C言語で書かれたソースファイルのパス (-dを記載の場合は省略可能)
 -d <dirPath>  : C言語で書かれたソースファイルを含んだフォルダのパス (-fを記載の場合は省略可能)
+-o <dirPath>  : 生成結果の保存先のパス(省略可能)
 -format <format> : 「-format dot」と入力するとDOTとSVGファイルを生成します。(省略時はGMLを生成)
 -out1file     : 1ソースファイルにつき1GMLファイルを出力する (省略可能) 
 -no_compact   : 処理ブロックのサイズをできるだけ小さくする設定をOFF (省略可能)
